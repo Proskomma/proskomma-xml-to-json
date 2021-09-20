@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://proskomma.bible/pk-tree.schema.json",
+  "title": "Proskomma Tree",
+  "description": "Prokomma's tree-like data format.",
+  "type": "object",
+  "definitions": {
+    "element": {
+      "type": "object",
+      "required": ["content", "children"],
+      "properties": {
+        "content": { "type": "object" },
+        "children": {
+          "type": "array",
+          "default": [],
+          "items": { "$ref": "#/definitions/element" }
+        }
+      }
+    }
+  },
+  "properties": {
+    "data": { "type": "array", "items": { "$ref": "#/definitions/element" } }
+  },
+  "required": ["data"]
+}

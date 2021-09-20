@@ -56,6 +56,7 @@ const processor = (anObject, objectKey, isFirst) => {
   if (!nextObjectKey || nextObjectKey === "#text") {
     return {
       content: { elementType: objectKey, text: _object["#text"], ...attrs },
+      children: [],
     };
   }
 
