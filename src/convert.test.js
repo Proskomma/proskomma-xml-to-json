@@ -17,33 +17,29 @@ describe("data conversion", () => {
       const converted = convert(testXml, ["name", "type"]);
 
       expect(converted).toEqual({
-        data: [
+        content: {
+          elementType: "Bible",
+          type: "Translation",
+          name: "The Mike Standard Version",
+        },
+        children: [
           {
             content: {
-              elementType: "Bible",
-              type: "Translation",
-              name: "The Mike Standard Version",
+              elementType: "Testament",
+              type: "Old",
+              text: "Old Words",
             },
-            children: [
-              {
-                content: {
-                  elementType: "Testament",
-                  type: "Old",
-                  text: "Old Words",
-                },
 
-                children: [],
-              },
-              {
-                content: {
-                  elementType: "Testament",
-                  type: "New",
-                  text: "New Words",
-                },
+            children: [],
+          },
+          {
+            content: {
+              elementType: "Testament",
+              type: "New",
+              text: "New Words",
+            },
 
-                children: [],
-              },
-            ],
+            children: [],
           },
         ],
       });
@@ -64,65 +60,61 @@ describe("data conversion", () => {
       const converted = convert(testXml, ["name", "type"]);
 
       expect(converted).toEqual({
-        data: [
+        content: {
+          elementType: "Bible",
+          type: "Translation",
+          name: "The Mike Standard Version",
+        },
+        children: [
           {
             content: {
-              elementType: "Bible",
-              type: "Translation",
-              name: "The Mike Standard Version",
+              elementType: "Testament",
+              type: "Old",
             },
             children: [
               {
                 content: {
-                  elementType: "Testament",
-                  type: "Old",
+                  elementType: "Book",
+                  name: "Genesis",
+                  text: "In the beginning...",
+                  type: "Narrative",
                 },
-                children: [
-                  {
-                    content: {
-                      elementType: "Book",
-                      name: "Genesis",
-                      text: "In the beginning...",
-                      type: "Narrative",
-                    },
-                    children: [],
-                  },
-                  {
-                    content: {
-                      elementType: "Book",
-                      name: "Ecclesiastes",
-                      text: "All is vapor...",
-                      type: "Wisdom",
-                    },
-                    children: [],
-                  },
-                ],
+                children: [],
               },
               {
                 content: {
-                  elementType: "Testament",
-                  type: "New",
+                  elementType: "Book",
+                  name: "Ecclesiastes",
+                  text: "All is vapor...",
+                  type: "Wisdom",
                 },
-                children: [
-                  {
-                    content: {
-                      elementType: "Book",
-                      name: "Matthew",
-                      text: "Blessed are the meek...",
-                      type: "Gospel",
-                    },
-                    children: [],
-                  },
-                  {
-                    content: {
-                      elementType: "Book",
-                      name: "James",
-                      text: "All is joy...",
-                      type: "Epistle",
-                    },
-                    children: [],
-                  },
-                ],
+                children: [],
+              },
+            ],
+          },
+          {
+            content: {
+              elementType: "Testament",
+              type: "New",
+            },
+            children: [
+              {
+                content: {
+                  elementType: "Book",
+                  name: "Matthew",
+                  text: "Blessed are the meek...",
+                  type: "Gospel",
+                },
+                children: [],
+              },
+              {
+                content: {
+                  elementType: "Book",
+                  name: "James",
+                  text: "All is joy...",
+                  type: "Epistle",
+                },
+                children: [],
               },
             ],
           },
@@ -136,7 +128,7 @@ describe("data conversion", () => {
       readFileSync("./data/pk-tree.schema.json").toString()
     );
 
-    it("validates against json schema", () => {
+    it("validates converter output against json schema", () => {
       const testXml = `<Bible type="Translation" name="The Mike Standard Version">
   <Testament type="Old">
   <Book type="Narrative", name="Genesis">In the beginning...</Book>
@@ -149,11 +141,31 @@ describe("data conversion", () => {
   </Bible>`;
 
       const converted = convert(testXml, ["name", "type"]);
-      //console.log(JSON.stringify(converted, null, 2));
 
-      var jsonSchemaValidator = new Validator();
+      const jsonSchemaValidator = new Validator();
       const validation = jsonSchemaValidator.validate(converted, pkTreeSchema);
-      //console.log(validation);
+
+      expect(validation.errors.length).toBe(0);
+    });
+
+    it("validates test data (genealogy) against json schema", () => {
+      const genealogy = JSON.parse(
+        readFileSync("./data/genealogy.json").toString()
+      );
+
+      const jsonSchemaValidator = new Validator();
+      const validation = jsonSchemaValidator.validate(genealogy, pkTreeSchema);
+      expect(validation.errors.length).toBe(0);
+    });
+
+
+    it("validates test data (testFile.json) against json schema", () => {
+      const genealogy = JSON.parse(
+        readFileSync("./output/testFile.json").toString()
+      );
+
+      const jsonSchemaValidator = new Validator();
+      const validation = jsonSchemaValidator.validate(genealogy, pkTreeSchema);
       expect(validation.errors.length).toBe(0);
     });
   });

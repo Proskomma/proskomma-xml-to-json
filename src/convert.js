@@ -84,9 +84,8 @@ const convert = (xmlData, requestedAttrs) => {
   });
 
   //console.log(parsedXml);
-  //
 
-  return { data: [processor(parsedXml, undefined, true)] };
+  return processor(parsedXml, undefined, true);
 };
 
 export default convert;
