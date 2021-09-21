@@ -4,27 +4,12 @@
   "title": "Proskomma Tree",
   "description": "Prokomma's tree-like data format.",
   "type": "object",
-  "$defs": {
-    "element": {
-      "type": "object",
-      "required": ["content"],
-      "additionalProperties": false,
-      "properties": {
-        "content": { "type": "object" },
-        "children": {
-          "type": "array",
-          "default": [],
-          "items": { "$ref": "#/$defs/element" }
-        }
-      }
-    }
-  },
   "properties": {
     "content": { "type": "object" },
     "children": {
       "type": "array",
       "default": [],
-      "items": { "$ref": "#/$defs/element" }
+      "items": { "$ref": "#" }
     }
   },
   "required": ["content"],
