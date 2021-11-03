@@ -10,7 +10,7 @@ const convertLocal = (fileLoadLocation, requestedAttrs, ignoredElements) => {
   });
 };
 
-// SBL: "sbl", 
+// SBL: "sbl",
 // SBL: ["ID", "nodeId", "morphId", "Cat", "English"]
 // SBL: []
 
@@ -18,12 +18,12 @@ const convertLocal = (fileLoadLocation, requestedAttrs, ignoredElements) => {
 // 1904-lowfat: ["role", "class", "n", "gloss", "strong"]
 // 1904-lowfat: ["p"]
 convertLocal(
-  "sbl",
-  ["ID", "nodeId", "morphId", "Cat", "English"],
-  []
+  "1904-lowfat",
+  ["role", "class", "n", "gloss", "strong"],
+  ["p"]
 ).forEach((converted) => {
   const fileName = converted[0].replace("xml", "json");
   const fileData = JSON.stringify(converted[1], null, 2);
-  console.log(fileName, Boolean(fileData), typeof fileData, fileData);
-  fileWriter(fileName, "sbl", fileData);
+  console.log(fileName, Boolean(fileData));
+  fileWriter(fileName, "1904-lowfat", fileData);
 });
