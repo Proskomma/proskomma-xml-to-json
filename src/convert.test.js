@@ -3,6 +3,32 @@ import { readFileSync } from "fs";
 import convert from "./convert.js";
 
 describe("data conversion", () => {
+  describe("lowfat data conversion", () => {
+    it("handles james without crashing", () => {
+      const lowfatJames = readFileSync(
+        "./data/1904-lowfat/20-james.xml"
+      ).toString();
+      const converted = convert(
+        lowfatJames,
+        ["role", "class", "strong", "gloss"],
+        ["p"]
+      );
+    });
+
+    it("handles John 1:1", () => {
+      const lowfatJames = readFileSync(
+        "./data/1904-lowfat/04-john.xml"
+      ).toString();
+      const converted = convert(
+        lowfatJames,
+        ["role", "class", "strong", "gloss"],
+        ["p"]
+      );
+
+      //console.log(JSON.stringify(converted, null, 2));
+    });
+  });
+
   describe("specific output cases", () => {
     it("converts one parent node with two children", () => {
       const testXml = `<Bible type="Translation" name="The Mike Standard Version">
@@ -14,7 +40,7 @@ describe("data conversion", () => {
       </Testament>
       </Bible>`;
 
-      const converted = convert(testXml, ["name", "type"]);
+      const converted = convert(testXml, ["name", "type"], []);
 
       expect(converted).toEqual({
         content: {
@@ -57,7 +83,7 @@ describe("data conversion", () => {
       </Testament>
       </Bible>`;
 
-      const converted = convert(testXml, ["name", "type"]);
+      const converted = convert(testXml, ["name", "type"], []);
 
       expect(converted).toEqual({
         content: {
@@ -140,7 +166,7 @@ describe("data conversion", () => {
   </Testament>
   </Bible>`;
 
-      const converted = convert(testXml, ["name", "type"]);
+      const converted = convert(testXml, ["name", "type"], []);
 
       const jsonSchemaValidator = new Validator();
       const validation = jsonSchemaValidator.validate(converted, pkTreeSchema);
@@ -158,10 +184,29 @@ describe("data conversion", () => {
       expect(validation.errors.length).toBe(0);
     });
 
-
-    it("validates test data (testFile.json) against json schema", () => {
+    it("validates test data (jude.sbl.json) against json schema", () => {
       const genealogy = JSON.parse(
-        readFileSync("./output/testFile.json").toString()
+        readFileSync("./output/sbl/jude.sbl.json").toString()
+      );
+
+      const jsonSchemaValidator = new Validator();
+      const validation = jsonSchemaValidator.validate(genealogy, pkTreeSchema);
+      expect(validation.errors.length).toBe(0);
+    });
+
+    it("validates test data (1john.sbl.json) against json schema", () => {
+      const genealogy = JSON.parse(
+        readFileSync("./output/sbl/1john.sbl.json").toString()
+      );
+
+      const jsonSchemaValidator = new Validator();
+      const validation = jsonSchemaValidator.validate(genealogy, pkTreeSchema);
+      expect(validation.errors.length).toBe(0);
+    });
+
+    it("validates test data (luke.sbl.json) against json schema", () => {
+      const genealogy = JSON.parse(
+        readFileSync("./output/sbl/luke.sbl.json").toString()
       );
 
       const jsonSchemaValidator = new Validator();

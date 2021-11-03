@@ -1,0 +1,3744 @@
+{
+  "content": {
+    "elementType": "book"
+  },
+  "children": [
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            {
+              "content": {
+                "elementType": "wg",
+                "class": "cl",
+                "n": "640010010010100"
+              },
+              "children": [
+                {
+                  "content": {
+                    "elementType": "wg",
+                    "role": "s",
+                    "class": "np",
+                    "n": "640010010010020"
+                  },
+                  "children": [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "Ὁ",
+                        "class": "det",
+                        "n": "640010010010010",
+                        "strong": "3588",
+                        "gloss": "The"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "πρεσβύτερος",
+                        "class": "adj",
+                        "n": "640010010020010",
+                        "strong": "4245",
+                        "gloss": "elder"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "content": {
+                    "elementType": "wg",
+                    "role": "io",
+                    "class": "np",
+                    "n": "640010010030080"
+                  },
+                  "children": [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "Γαΐῳ",
+                          "class": "noun",
+                          "n": "640010010030010",
+                          "strong": "1050",
+                          "gloss": "To Gaius"
+                        },
+                        "children": []
+                      },
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τῷ",
+                              "class": "det",
+                              "n": "640010010040010",
+                              "strong": "3588",
+                              "gloss": "the"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἀγαπητῷ",
+                              "class": "adj",
+                              "n": "640010010050010",
+                              "strong": "27",
+                              "gloss": "beloved"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ],
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ὃν",
+                            "role": "o",
+                            "class": "pron",
+                            "n": "640010010060010",
+                            "strong": "3739",
+                            "gloss": "whom"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐγὼ",
+                            "role": "s",
+                            "class": "pron",
+                            "n": "640010010070010",
+                            "strong": "1473",
+                            "gloss": "I"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἀγαπῶ",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010010080010",
+                            "strong": "25",
+                            "gloss": "love"
+                          },
+                          "children": []
+                        }
+                      ],
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἐν",
+                              "class": "prep",
+                              "n": "640010010090010",
+                              "strong": "1722",
+                              "gloss": "in"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἀληθείᾳ",
+                              "class": "noun",
+                              "n": "640010010100010",
+                              "strong": "225",
+                              "gloss": "truth"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            {
+              "content": {
+                "elementType": "wg",
+                "class": "cl",
+                "n": "640010020010130"
+              },
+              "children": [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "Ἀγαπητέ",
+                      "class": "adj",
+                      "n": "640010020010010",
+                      "strong": "27",
+                      "gloss": "Beloved"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "role": "adv",
+                        "class": "pp",
+                        "n": "640010020020020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "περὶ",
+                            "class": "prep",
+                            "n": "640010020020010",
+                            "strong": "4012",
+                            "gloss": "concerning"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "πάντων",
+                            "class": "adj",
+                            "n": "640010020030010",
+                            "strong": "3956",
+                            "gloss": "all things"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "σε",
+                          "role": "s",
+                          "class": "pron",
+                          "n": "640010020050010",
+                          "strong": "4771",
+                          "gloss": "you"
+                        },
+                        "children": []
+                      },
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "εὐοδοῦσθαι",
+                              "class": "verb",
+                              "n": "640010020060010",
+                              "strong": "2137",
+                              "gloss": "to prosper"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "καὶ",
+                              "class": "conj",
+                              "n": "640010020070010",
+                              "strong": "2532",
+                              "gloss": "and"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ὑγιαίνειν",
+                              "class": "verb",
+                              "n": "640010020080010",
+                              "strong": "5198",
+                              "gloss": "to be in good health"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ],
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "εὔχομαί",
+                      "role": "v",
+                      "class": "verb",
+                      "n": "640010020040010",
+                      "strong": "2172",
+                      "gloss": "I pray"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "καθὼς",
+                      "class": "conj",
+                      "n": "640010020090010",
+                      "strong": "2531",
+                      "gloss": "just as"
+                    },
+                    "children": []
+                  },
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "εὐοδοῦταί",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010020100010",
+                        "strong": "2137",
+                        "gloss": "prospers"
+                      },
+                      "children": []
+                    },
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "σου",
+                          "class": "pron",
+                          "n": "640010020110010",
+                          "strong": "4771",
+                          "gloss": "your"
+                        },
+                        "children": []
+                      },
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἡ",
+                              "class": "det",
+                              "n": "640010020120010",
+                              "strong": "3588",
+                              "gloss": "-"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ψυχή",
+                              "class": "noun",
+                              "n": "640010020130010",
+                              "strong": "5590",
+                              "gloss": "soul"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "γὰρ",
+                  "class": "conj",
+                  "n": "640010030020010",
+                  "strong": "1063",
+                  "gloss": "for"
+                },
+                "children": []
+              },
+              [
+                {
+                  "content": {
+                    "elementType": "wg",
+                    "class": "cl",
+                    "n": "640010030010020"
+                  },
+                  "children": [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἐχάρην",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010030010010",
+                        "strong": "5463",
+                        "gloss": "I rejoiced"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "λίαν",
+                        "role": "adv",
+                        "class": "adv",
+                        "n": "640010030030010",
+                        "strong": "3029",
+                        "gloss": "exceedingly"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "class": "cl",
+                        "n": "640010030040020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐρχομένων",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010030040010",
+                            "strong": "2064",
+                            "gloss": "coming"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἀδελφῶν",
+                            "role": "s",
+                            "class": "noun",
+                            "n": "640010030050010",
+                            "strong": "80",
+                            "gloss": "of [the] brothers"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "μαρτυρούντων",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010030070010",
+                          "strong": "3140",
+                          "gloss": "bearing witness"
+                        },
+                        "children": []
+                      },
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "σου",
+                            "class": "pron",
+                            "n": "640010030080010",
+                            "strong": "4771",
+                            "gloss": "of your"
+                          },
+                          "children": []
+                        },
+                        [
+                          [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "τῇ",
+                                "class": "det",
+                                "n": "640010030090010",
+                                "strong": "3588",
+                                "gloss": "-"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ἀληθείᾳ",
+                                "class": "noun",
+                                "n": "640010030100010",
+                                "strong": "225",
+                                "gloss": "truth"
+                              },
+                              "children": []
+                            }
+                          ],
+                          {
+                            "content": {
+                              "elementType": "pc"
+                            },
+                            "children": []
+                          }
+                        ]
+                      ]
+                    ]
+                  ],
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "καὶ",
+                      "class": "conj",
+                      "n": "640010030060010",
+                      "strong": "2532",
+                      "gloss": "and"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "καθὼς",
+                      "class": "conj",
+                      "n": "640010030110010",
+                      "strong": "2531",
+                      "gloss": "just as"
+                    },
+                    "children": []
+                  },
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "σὺ",
+                          "role": "s",
+                          "class": "pron",
+                          "n": "640010030120010",
+                          "strong": "4771",
+                          "gloss": "you"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "περιπατεῖς",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010030150010",
+                          "strong": "4043",
+                          "gloss": "are walking"
+                        },
+                        "children": []
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "role": "adv",
+                        "class": "pp",
+                        "n": "640010030130020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐν",
+                            "class": "prep",
+                            "n": "640010030130010",
+                            "strong": "1722",
+                            "gloss": "in"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἀληθείᾳ",
+                            "class": "noun",
+                            "n": "640010030140010",
+                            "strong": "225",
+                            "gloss": "truth"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            {
+              "content": {
+                "elementType": "wg",
+                "class": "cl",
+                "n": "640010040010140"
+              },
+              "children": [
+                [
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "μειζοτέραν",
+                          "class": "adj",
+                          "n": "640010040010010",
+                          "strong": "3173",
+                          "gloss": "Greater"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "χαράν",
+                          "class": "noun",
+                          "n": "640010040050010",
+                          "strong": "5479",
+                          "gloss": "joy"
+                        },
+                        "children": []
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ],
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "τούτων",
+                        "role": "adv",
+                        "class": "pron",
+                        "n": "640010040020010",
+                        "strong": "3778",
+                        "gloss": "than these things"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "οὐκ",
+                        "role": "adv",
+                        "class": "adv",
+                        "n": "640010040030010",
+                        "strong": "3756",
+                        "gloss": "not"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἔχω",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010040040010",
+                        "strong": "2192",
+                        "gloss": "I have"
+                      },
+                      "children": []
+                    }
+                  ]
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἵνα",
+                      "class": "adv",
+                      "n": "640010040060010",
+                      "strong": "2443",
+                      "gloss": "that"
+                    },
+                    "children": []
+                  },
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἀκούω",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010040070010",
+                        "strong": "191",
+                        "gloss": "I should hear of"
+                      },
+                      "children": []
+                    },
+                    [
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τὰ",
+                              "class": "det",
+                              "n": "640010040080010",
+                              "strong": "3588",
+                              "gloss": "-"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "wg",
+                              "class": "np",
+                              "n": "640010040090020"
+                            },
+                            "children": [
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "ἐμὰ",
+                                  "class": "adj",
+                                  "n": "640010040090010",
+                                  "strong": "1699",
+                                  "gloss": "my"
+                                },
+                                "children": []
+                              },
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "τέκνα",
+                                  "class": "noun",
+                                  "n": "640010040100010",
+                                  "strong": "5043",
+                                  "gloss": "children"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ],
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἐν",
+                              "class": "prep",
+                              "n": "640010040110010",
+                              "strong": "1722",
+                              "gloss": "in"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "wg",
+                              "class": "np",
+                              "n": "640010040120020"
+                            },
+                            "children": [
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "τῇ",
+                                  "class": "det",
+                                  "n": "640010040120010",
+                                  "strong": "3588",
+                                  "gloss": "the"
+                                },
+                                "children": []
+                              },
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "ἀληθείᾳ",
+                                  "class": "noun",
+                                  "n": "640010040130010",
+                                  "strong": "225",
+                                  "gloss": "truth"
+                                },
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      ],
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "περιπατοῦντα",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010040140010",
+                          "strong": "4043",
+                          "gloss": "walking"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            {
+              "content": {
+                "elementType": "wg",
+                "class": "cl",
+                "n": "640010050010260"
+              },
+              "children": [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "Ἀγαπητέ",
+                      "class": "adj",
+                      "n": "640010050010010",
+                      "strong": "27",
+                      "gloss": "Beloved"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  [
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "πιστὸν",
+                            "role": "o",
+                            "class": "adj",
+                            "n": "640010050020010",
+                            "strong": "4103",
+                            "gloss": "faithfully"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ποιεῖς",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010050030010",
+                            "strong": "4160",
+                            "gloss": "you are doing"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "role": "adv",
+                          "class": "np",
+                          "n": "640010050050061"
+                        },
+                        "children": [
+                          [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ἐὰν",
+                                "class": "ptcl",
+                                "n": "640010050050010",
+                                "strong": "1437",
+                                "gloss": "if"
+                              },
+                              "children": []
+                            },
+                            [
+                              [
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "ὃ",
+                                    "role": "o",
+                                    "class": "pron",
+                                    "n": "640010050040010",
+                                    "strong": "3739",
+                                    "gloss": "whatever"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "ἐργάσῃ",
+                                    "role": "v",
+                                    "class": "verb",
+                                    "n": "640010050060010",
+                                    "strong": "2038",
+                                    "gloss": "you might have done"
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              [
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "εἰς",
+                                    "class": "prep",
+                                    "n": "640010050070010",
+                                    "strong": "1519",
+                                    "gloss": "toward"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "content": {
+                                    "elementType": "wg",
+                                    "class": "np",
+                                    "n": "640010050080020"
+                                  },
+                                  "children": [
+                                    {
+                                      "content": {
+                                        "elementType": "w",
+                                        "text": "τοὺς",
+                                        "class": "det",
+                                        "n": "640010050080010",
+                                        "strong": "3588",
+                                        "gloss": "the"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "content": {
+                                        "elementType": "w",
+                                        "text": "ἀδελφοὺς",
+                                        "class": "noun",
+                                        "n": "640010050090010",
+                                        "strong": "80",
+                                        "gloss": "brothers"
+                                      },
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "τοῦτο",
+                          "role": "o",
+                          "class": "pron",
+                          "n": "640010050110010",
+                          "strong": "3778",
+                          "gloss": "they are"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "role": "adv",
+                          "class": "np",
+                          "n": "640010050120150"
+                        },
+                        "children": [
+                          [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ξένους",
+                                "class": "adj",
+                                "n": "640010050120010",
+                                "strong": "3581",
+                                "gloss": "strangers"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "pc"
+                              },
+                              "children": []
+                            },
+                            [
+                              [
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "οἳ",
+                                    "role": "s",
+                                    "class": "pron",
+                                    "n": "640010060010010",
+                                    "strong": "3739",
+                                    "gloss": "who"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "ἐμαρτύρησάν",
+                                    "role": "v",
+                                    "class": "verb",
+                                    "n": "640010060020010",
+                                    "strong": "3140",
+                                    "gloss": "testified"
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              [
+                                [
+                                  {
+                                    "content": {
+                                      "elementType": "w",
+                                      "text": "σου",
+                                      "class": "pron",
+                                      "n": "640010060030010",
+                                      "strong": "4771",
+                                      "gloss": "of your"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "content": {
+                                      "elementType": "wg",
+                                      "class": "np",
+                                      "n": "640010060040020"
+                                    },
+                                    "children": [
+                                      {
+                                        "content": {
+                                          "elementType": "w",
+                                          "text": "τῇ",
+                                          "class": "det",
+                                          "n": "640010060040010",
+                                          "strong": "3588",
+                                          "gloss": "-"
+                                        },
+                                        "children": []
+                                      },
+                                      {
+                                        "content": {
+                                          "elementType": "w",
+                                          "text": "ἀγάπῃ",
+                                          "class": "noun",
+                                          "n": "640010060050010",
+                                          "strong": "26",
+                                          "gloss": "love"
+                                        },
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ],
+                                [
+                                  [
+                                    {
+                                      "content": {
+                                        "elementType": "w",
+                                        "text": "ἐνώπιον",
+                                        "class": "prep",
+                                        "n": "640010060060010",
+                                        "strong": "1799",
+                                        "gloss": "before"
+                                      },
+                                      "children": []
+                                    },
+                                    {
+                                      "content": {
+                                        "elementType": "w",
+                                        "text": "ἐκκλησίας",
+                                        "class": "noun",
+                                        "n": "640010060070010",
+                                        "strong": "1577",
+                                        "gloss": "[the] church"
+                                      },
+                                      "children": []
+                                    }
+                                  ],
+                                  {
+                                    "content": {
+                                      "elementType": "pc"
+                                    },
+                                    "children": []
+                                  }
+                                ]
+                              ]
+                            ]
+                          ],
+                          [
+                            [
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "οὓς",
+                                  "role": "adv",
+                                  "class": "pron",
+                                  "n": "640010060080010",
+                                  "strong": "3739",
+                                  "gloss": "whom"
+                                },
+                                "children": []
+                              },
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "καλῶς",
+                                  "role": "adv",
+                                  "class": "adv",
+                                  "n": "640010060090010",
+                                  "strong": "2573",
+                                  "gloss": "well"
+                                },
+                                "children": []
+                              },
+                              {
+                                "content": {
+                                  "elementType": "w",
+                                  "text": "ποιήσεις",
+                                  "role": "v",
+                                  "class": "verb",
+                                  "n": "640010060100010",
+                                  "strong": "4160",
+                                  "gloss": "you will do"
+                                },
+                                "children": []
+                              }
+                            ],
+                            [
+                              [
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "προπέμψας",
+                                    "role": "v",
+                                    "class": "verb",
+                                    "n": "640010060110010",
+                                    "strong": "4311",
+                                    "gloss": "having set forward"
+                                  },
+                                  "children": []
+                                },
+                                {
+                                  "content": {
+                                    "elementType": "w",
+                                    "text": "ἀξίως",
+                                    "role": "adv",
+                                    "class": "adv",
+                                    "n": "640010060120010",
+                                    "strong": "516",
+                                    "gloss": "worthily"
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              [
+                                [
+                                  {
+                                    "content": {
+                                      "elementType": "w",
+                                      "text": "τοῦ",
+                                      "class": "det",
+                                      "n": "640010060130010",
+                                      "strong": "3588",
+                                      "gloss": "-"
+                                    },
+                                    "children": []
+                                  },
+                                  {
+                                    "content": {
+                                      "elementType": "w",
+                                      "text": "Θεοῦ",
+                                      "class": "noun",
+                                      "n": "640010060140010",
+                                      "strong": "2316",
+                                      "gloss": "of God"
+                                    },
+                                    "children": []
+                                  }
+                                ],
+                                {
+                                  "content": {
+                                    "elementType": "pc"
+                                  },
+                                  "children": []
+                                }
+                              ]
+                            ]
+                          ]
+                        ]
+                      }
+                    ]
+                  ],
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "καὶ",
+                      "class": "conj",
+                      "n": "640010050100010",
+                      "strong": "2532",
+                      "gloss": "and"
+                    },
+                    "children": []
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "γὰρ",
+                  "class": "conj",
+                  "n": "640010070020010",
+                  "strong": "1063",
+                  "gloss": "for"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὑπὲρ",
+                        "class": "prep",
+                        "n": "640010070010010",
+                        "strong": "5228",
+                        "gloss": "On behalf"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "class": "np",
+                        "n": "640010070030020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "τοῦ",
+                            "class": "det",
+                            "n": "640010070030010",
+                            "strong": "3588",
+                            "gloss": "of the"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "Ὀνόματος",
+                            "class": "noun",
+                            "n": "640010070040010",
+                            "strong": "3686",
+                            "gloss": "name"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "μηδὲν",
+                          "role": "o",
+                          "class": "adj",
+                          "n": "640010070060010",
+                          "strong": "3367",
+                          "gloss": "nothing"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "λαμβάνοντες",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010070070010",
+                          "strong": "2983",
+                          "gloss": "accepting"
+                        },
+                        "children": []
+                      }
+                    ],
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "ἀπὸ",
+                          "class": "prep",
+                          "n": "640010070080010",
+                          "strong": "575",
+                          "gloss": "from"
+                        },
+                        "children": []
+                      },
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τῶν",
+                              "class": "det",
+                              "n": "640010070090010",
+                              "strong": "3588",
+                              "gloss": "the"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἐθνικῶν",
+                              "class": "adj",
+                              "n": "640010070100010",
+                              "strong": "1482",
+                              "gloss": "Gentiles"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ]
+                ],
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "ἐξῆλθαν",
+                    "role": "v",
+                    "class": "verb",
+                    "n": "640010070050010",
+                    "strong": "1831",
+                    "gloss": "they went forth"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "οὖν",
+                  "class": "conj",
+                  "n": "640010080020010",
+                  "strong": "3767",
+                  "gloss": "therefore"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἡμεῖς",
+                        "role": "s",
+                        "class": "pron",
+                        "n": "640010080010010",
+                        "strong": "1473",
+                        "gloss": "We"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὀφείλομεν",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010080030010",
+                        "strong": "3784",
+                        "gloss": "ought"
+                      },
+                      "children": []
+                    }
+                  ],
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὑπολαμβάνειν",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010080040010",
+                        "strong": "5274",
+                        "gloss": "to receive"
+                      },
+                      "children": []
+                    },
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "τοὺς",
+                            "class": "det",
+                            "n": "640010080050010",
+                            "strong": "3588",
+                            "gloss": "-"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "τοιούτους",
+                            "class": "pron",
+                            "n": "640010080060010",
+                            "strong": "5108",
+                            "gloss": "such [men]"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ]
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἵνα",
+                      "class": "conj",
+                      "n": "640010080070010",
+                      "strong": "2443",
+                      "gloss": "so that"
+                    },
+                    "children": []
+                  },
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "συνεργοὶ",
+                          "role": "p",
+                          "class": "adj",
+                          "n": "640010080080010",
+                          "strong": "4904",
+                          "gloss": "fellow workers"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "γινώμεθα",
+                          "role": "vc",
+                          "class": "verb",
+                          "n": "640010080090010",
+                          "strong": "1096",
+                          "gloss": "we may be"
+                        },
+                        "children": []
+                      }
+                    ],
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "τῇ",
+                            "class": "det",
+                            "n": "640010080100010",
+                            "strong": "3588",
+                            "gloss": "in the"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἀληθείᾳ",
+                            "class": "noun",
+                            "n": "640010080110010",
+                            "strong": "225",
+                            "gloss": "truth"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "Ἔγραψά",
+                    "role": "v",
+                    "class": "verb",
+                    "n": "640010090010010",
+                    "strong": "1125",
+                    "gloss": "I have written"
+                  },
+                  "children": []
+                },
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "τι",
+                    "role": "o",
+                    "class": "pron",
+                    "n": "640010090020010",
+                    "strong": "5100",
+                    "gloss": "something"
+                  },
+                  "children": []
+                }
+              ],
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "τῇ",
+                      "class": "det",
+                      "n": "640010090030010",
+                      "strong": "3588",
+                      "gloss": "to the"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἐκκλησίᾳ",
+                      "class": "noun",
+                      "n": "640010090040010",
+                      "strong": "1577",
+                      "gloss": "church"
+                    },
+                    "children": []
+                  }
+                ],
+                {
+                  "content": {
+                    "elementType": "pc"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "ἀλλ’",
+                  "class": "conj",
+                  "n": "640010090050010",
+                  "strong": "235",
+                  "gloss": "but"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὁ",
+                        "class": "det",
+                        "n": "640010090060010",
+                        "strong": "3588",
+                        "gloss": "the [one]"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "class": "cl",
+                        "n": "640010090070020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "φιλοπρωτεύων",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010090070010",
+                            "strong": "5383",
+                            "gloss": "loving to be first"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "αὐτῶν",
+                            "role": "adv",
+                            "class": "pron",
+                            "n": "640010090080010",
+                            "strong": "846",
+                            "gloss": "among them"
+                          },
+                          "children": []
+                        }
+                      ]
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "Διοτρεφὴς",
+                      "class": "noun",
+                      "n": "640010090090010",
+                      "strong": "1361",
+                      "gloss": "Diotrephes"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "οὐκ",
+                      "role": "adv",
+                      "class": "adv",
+                      "n": "640010090100010",
+                      "strong": "3756",
+                      "gloss": "not"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἐπιδέχεται",
+                      "role": "v",
+                      "class": "verb",
+                      "n": "640010090110010",
+                      "strong": "1926",
+                      "gloss": "welcomes"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἡμᾶς",
+                      "role": "o",
+                      "class": "pron",
+                      "n": "640010090120010",
+                      "strong": "1473",
+                      "gloss": "us"
+                    },
+                    "children": []
+                  }
+                ],
+                {
+                  "content": {
+                    "elementType": "pc"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "διὰ",
+                        "class": "prep",
+                        "n": "640010100010010",
+                        "strong": "1223",
+                        "gloss": "Because of"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "τοῦτο",
+                        "class": "pron",
+                        "n": "640010100020010",
+                        "strong": "3778",
+                        "gloss": "this"
+                      },
+                      "children": []
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἐὰν",
+                      "class": "conj",
+                      "n": "640010100030010",
+                      "strong": "1437",
+                      "gloss": "if"
+                    },
+                    "children": []
+                  },
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἔλθω",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010100040010",
+                        "strong": "2064",
+                        "gloss": "I might come"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ]
+                ],
+                {
+                  "content": {
+                    "elementType": "wg",
+                    "role": "o",
+                    "class": "np",
+                    "n": "640010100060090"
+                  },
+                  "children": [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "αὐτοῦ",
+                          "class": "pron",
+                          "n": "640010100060010",
+                          "strong": "846",
+                          "gloss": "of him"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "class": "np",
+                          "n": "640010100070020"
+                        },
+                        "children": [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τὰ",
+                              "class": "det",
+                              "n": "640010100070010",
+                              "strong": "3588",
+                              "gloss": "the"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἔργα",
+                              "class": "noun",
+                              "n": "640010100080010",
+                              "strong": "2041",
+                              "gloss": "works"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἃ",
+                            "role": "o",
+                            "class": "pron",
+                            "n": "640010100090010",
+                            "strong": "3739",
+                            "gloss": "which"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ποιεῖ",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010100100010",
+                            "strong": "4160",
+                            "gloss": "he is doing"
+                          },
+                          "children": []
+                        }
+                      ],
+                      [
+                        {
+                          "content": {
+                            "elementType": "wg",
+                            "role": "adv",
+                            "class": "np",
+                            "n": "640010100110020"
+                          },
+                          "children": [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "λόγοις",
+                                "class": "noun",
+                                "n": "640010100110010",
+                                "strong": "3056",
+                                "gloss": "with words"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "πονηροῖς",
+                                "class": "adj",
+                                "n": "640010100120010",
+                                "strong": "4190",
+                                "gloss": "evil"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "φλυαρῶν",
+                              "role": "v",
+                              "class": "verb",
+                              "n": "640010100130010",
+                              "strong": "5396",
+                              "gloss": "prating against"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἡμᾶς",
+                              "role": "o",
+                              "class": "pron",
+                              "n": "640010100140010",
+                              "strong": "1473",
+                              "gloss": "us"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ]
+                }
+              ],
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "ὑπομνήσω",
+                  "role": "v",
+                  "class": "verb",
+                  "n": "640010100050010",
+                  "strong": "5279",
+                  "gloss": "I will bring to remembrance"
+                },
+                "children": []
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "καὶ",
+                  "class": "conj",
+                  "n": "640010100150010",
+                  "strong": "2532",
+                  "gloss": "and"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "μὴ",
+                        "role": "adv",
+                        "class": "adv",
+                        "n": "640010100160010",
+                        "strong": "3361",
+                        "gloss": "not"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἀρκούμενος",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010100170010",
+                        "strong": "714",
+                        "gloss": "being satisfied"
+                      },
+                      "children": []
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "role": "adv",
+                      "class": "pp",
+                      "n": "640010100180020"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "ἐπὶ",
+                          "class": "prep",
+                          "n": "640010100180010",
+                          "strong": "1909",
+                          "gloss": "with"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "τούτοις",
+                          "class": "pron",
+                          "n": "640010100190010",
+                          "strong": "3778",
+                          "gloss": "these"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "οὔτε",
+                        "class": "conj",
+                        "n": "640010100200010",
+                        "strong": "3777",
+                        "gloss": "neither"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "καὶ",
+                        "class": "conj",
+                        "n": "640010100250010",
+                        "strong": "2532",
+                        "gloss": "and"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "καὶ",
+                        "class": "conj",
+                        "n": "640010100290010",
+                        "strong": "2532",
+                        "gloss": "and"
+                      },
+                      "children": []
+                    }
+                  ],
+                  [
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "αὐτὸς",
+                            "role": "s",
+                            "class": "pron",
+                            "n": "640010100210010",
+                            "strong": "846",
+                            "gloss": "himself"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐπιδέχεται",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010100220010",
+                            "strong": "1926",
+                            "gloss": "he receives"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "role": "o",
+                          "class": "np",
+                          "n": "640010100230020"
+                        },
+                        "children": [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τοὺς",
+                              "class": "det",
+                              "n": "640010100230010",
+                              "strong": "3588",
+                              "gloss": "the"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἀδελφοὺς",
+                              "class": "noun",
+                              "n": "640010100240010",
+                              "strong": "80",
+                              "gloss": "brothers"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "τοὺς",
+                            "class": "det",
+                            "n": "640010100260010",
+                            "strong": "3588",
+                            "gloss": "those"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "wg",
+                            "class": "cl",
+                            "n": "640010100270013"
+                          },
+                          "children": [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "βουλομένους",
+                                "role": "v",
+                                "class": "verb",
+                                "n": "640010100270010",
+                                "strong": "1014",
+                                "gloss": "purposing"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "κωλύει",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010100280010",
+                          "strong": "2967",
+                          "gloss": "he forbids"
+                        },
+                        "children": []
+                      }
+                    ],
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐκ",
+                            "class": "prep",
+                            "n": "640010100300010",
+                            "strong": "1537",
+                            "gloss": "from"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "wg",
+                            "class": "np",
+                            "n": "640010100310020"
+                          },
+                          "children": [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "τῆς",
+                                "class": "det",
+                                "n": "640010100310010",
+                                "strong": "3588",
+                                "gloss": "the"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ἐκκλησίας",
+                                "class": "noun",
+                                "n": "640010100320010",
+                                "strong": "1577",
+                                "gloss": "church"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "ἐκβάλλει",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010100330010",
+                          "strong": "1544",
+                          "gloss": "he casts [them] out"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ]
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            {
+              "content": {
+                "elementType": "wg",
+                "class": "cl",
+                "n": "640010110010080"
+              },
+              "children": [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "Ἀγαπητέ",
+                      "class": "adj",
+                      "n": "640010110010010",
+                      "strong": "27",
+                      "gloss": "Beloved"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ],
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "μὴ",
+                        "class": "adv",
+                        "n": "640010110020010",
+                        "strong": "3361",
+                        "gloss": "not"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἀλλὰ",
+                        "class": "conj",
+                        "n": "640010110060010",
+                        "strong": "235",
+                        "gloss": "but"
+                      },
+                      "children": []
+                    }
+                  ],
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "μιμοῦ",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010110030010",
+                          "strong": "3401",
+                          "gloss": "do imitate"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "role": "o",
+                          "class": "np",
+                          "n": "640010110040020"
+                        },
+                        "children": [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τὸ",
+                              "class": "det",
+                              "n": "640010110040010",
+                              "strong": "3588",
+                              "gloss": "what [is]"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "κακὸν",
+                              "class": "adj",
+                              "n": "640010110050010",
+                              "strong": "2556",
+                              "gloss": "evil"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "class": "cl",
+                        "n": "640010110070022"
+                      },
+                      "children": [
+                        [
+                          [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "τὸ",
+                                "class": "det",
+                                "n": "640010110070010",
+                                "strong": "3588",
+                                "gloss": "what [is]"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ἀγαθόν",
+                                "class": "adj",
+                                "n": "640010110080010",
+                                "strong": "18",
+                                "gloss": "good"
+                              },
+                              "children": []
+                            }
+                          ],
+                          {
+                            "content": {
+                              "elementType": "pc"
+                            },
+                            "children": []
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ὁ",
+                      "class": "det",
+                      "n": "640010110090010",
+                      "strong": "3588",
+                      "gloss": "The [one]"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "class": "cl",
+                      "n": "640010110100013"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "ἀγαθοποιῶν",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010110100010",
+                          "strong": "15",
+                          "gloss": "doing good"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ἐκ",
+                      "class": "prep",
+                      "n": "640010110110010",
+                      "strong": "1537",
+                      "gloss": "of"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "class": "np",
+                      "n": "640010110120020"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "τοῦ",
+                          "class": "det",
+                          "n": "640010110120010",
+                          "strong": "3588",
+                          "gloss": "-"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "Θεοῦ",
+                          "class": "noun",
+                          "n": "640010110130010",
+                          "strong": "2316",
+                          "gloss": "God"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              ],
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "ἐστιν",
+                  "role": "vc",
+                  "class": "verb",
+                  "n": "640010110140010",
+                  "strong": "1510",
+                  "gloss": "is"
+                },
+                "children": []
+              },
+              {
+                "content": {
+                  "elementType": "pc"
+                },
+                "children": []
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "ὁ",
+                      "class": "det",
+                      "n": "640010110150010",
+                      "strong": "3588",
+                      "gloss": "the [one]"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "class": "cl",
+                      "n": "640010110160013"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "κακοποιῶν",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010110160010",
+                          "strong": "2554",
+                          "gloss": "doing evil"
+                        },
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "τὸν",
+                        "class": "det",
+                        "n": "640010110190010",
+                        "strong": "3588",
+                        "gloss": "-"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "Θεόν",
+                        "class": "noun",
+                        "n": "640010110200010",
+                        "strong": "2316",
+                        "gloss": "God"
+                      },
+                      "children": []
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ]
+              ],
+              [
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "οὐχ",
+                    "role": "adv",
+                    "class": "adv",
+                    "n": "640010110170010",
+                    "strong": "3756",
+                    "gloss": "not"
+                  },
+                  "children": []
+                },
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "ἑώρακεν",
+                    "role": "v",
+                    "class": "verb",
+                    "n": "640010110180010",
+                    "strong": "3708",
+                    "gloss": "has seen"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "Δημητρίῳ",
+                    "role": "adv",
+                    "class": "noun",
+                    "n": "640010120010010",
+                    "strong": "1216",
+                    "gloss": "To Demetrius"
+                  },
+                  "children": []
+                },
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "μεμαρτύρηται",
+                    "role": "v",
+                    "class": "verb",
+                    "n": "640010120020010",
+                    "strong": "3140",
+                    "gloss": "witness has been given"
+                  },
+                  "children": []
+                }
+              ],
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "class": "pp",
+                      "n": "640010120030020"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "ὑπὸ",
+                          "class": "prep",
+                          "n": "640010120030010",
+                          "strong": "5259",
+                          "gloss": "by"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "πάντων",
+                          "class": "adj",
+                          "n": "640010120040010",
+                          "strong": "3956",
+                          "gloss": "all"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὑπὸ",
+                        "class": "prep",
+                        "n": "640010120060010",
+                        "strong": "5259",
+                        "gloss": "by"
+                      },
+                      "children": []
+                    },
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "αὐτῆς",
+                          "class": "pron",
+                          "n": "640010120070010",
+                          "strong": "846",
+                          "gloss": "itself"
+                        },
+                        "children": []
+                      },
+                      [
+                        [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "τῆς",
+                              "class": "det",
+                              "n": "640010120080010",
+                              "strong": "3588",
+                              "gloss": "the"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "ἀληθείας",
+                              "class": "noun",
+                              "n": "640010120090010",
+                              "strong": "225",
+                              "gloss": "truth"
+                            },
+                            "children": []
+                          }
+                        ],
+                        {
+                          "content": {
+                            "elementType": "pc"
+                          },
+                          "children": []
+                        }
+                      ]
+                    ]
+                  ]
+                ],
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "καὶ",
+                    "class": "conj",
+                    "n": "640010120050010",
+                    "strong": "2532",
+                    "gloss": "and"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "δὲ",
+                  "class": "conj",
+                  "n": "640010120120010",
+                  "strong": "1161",
+                  "gloss": "also"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "wg",
+                        "role": "s",
+                        "class": "np",
+                        "n": "640010120100020"
+                      },
+                      "children": [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "καὶ",
+                            "class": "adv",
+                            "n": "640010120100010",
+                            "strong": "2532",
+                            "gloss": "and"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἡμεῖς",
+                            "class": "pron",
+                            "n": "640010120110010",
+                            "strong": "1473",
+                            "gloss": "we"
+                          },
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "μαρτυροῦμεν",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010120130010",
+                        "strong": "3140",
+                        "gloss": "bear witness"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "wg",
+                      "class": "cl",
+                      "n": "640010120150013"
+                    },
+                    "children": [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "οἶδας",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010120150010",
+                          "strong": "1492",
+                          "gloss": "you know"
+                        },
+                        "children": []
+                      }
+                    ]
+                  },
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὅτι",
+                        "class": "conj",
+                        "n": "640010120160010",
+                        "strong": "3754",
+                        "gloss": "that"
+                      },
+                      "children": []
+                    },
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἡ",
+                            "class": "det",
+                            "n": "640010120170010",
+                            "strong": "3588",
+                            "gloss": "the"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "wg",
+                            "class": "np",
+                            "n": "640010120180020"
+                          },
+                          "children": [
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "μαρτυρία",
+                                "class": "noun",
+                                "n": "640010120180010",
+                                "strong": "3141",
+                                "gloss": "testimony"
+                              },
+                              "children": []
+                            },
+                            {
+                              "content": {
+                                "elementType": "w",
+                                "text": "ἡμῶν",
+                                "class": "pron",
+                                "n": "640010120190010",
+                                "strong": "1473",
+                                "gloss": "of us"
+                              },
+                              "children": []
+                            }
+                          ]
+                        }
+                      ],
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἀληθής",
+                            "role": "p",
+                            "class": "adj",
+                            "n": "640010120200010",
+                            "strong": "227",
+                            "gloss": "true"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἐστιν",
+                            "role": "vc",
+                            "class": "verb",
+                            "n": "640010120210010",
+                            "strong": "1510",
+                            "gloss": "is"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ]
+                ],
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "καὶ",
+                    "class": "conj",
+                    "n": "640010120140010",
+                    "strong": "2532",
+                    "gloss": "and"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "εἶχον",
+                      "role": "v",
+                      "class": "verb",
+                      "n": "640010130020010",
+                      "strong": "2192",
+                      "gloss": "I had"
+                    },
+                    "children": []
+                  },
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "Πολλὰ",
+                          "role": "o",
+                          "class": "adj",
+                          "n": "640010130010010",
+                          "strong": "4183",
+                          "gloss": "Many things"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "γράψαι",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010130030010",
+                          "strong": "1125",
+                          "gloss": "to write"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "σοι",
+                          "role": "io",
+                          "class": "pron",
+                          "n": "640010130040010",
+                          "strong": "4771",
+                          "gloss": "to you"
+                        },
+                        "children": []
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ]
+                ],
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "οὐ",
+                        "role": "adv",
+                        "class": "adv",
+                        "n": "640010130060010",
+                        "strong": "3756",
+                        "gloss": "not"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "θέλω",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010130070010",
+                        "strong": "2309",
+                        "gloss": "I desire"
+                      },
+                      "children": []
+                    }
+                  ],
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "διὰ",
+                          "class": "prep",
+                          "n": "640010130080010",
+                          "strong": "1223",
+                          "gloss": "with"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "class": "np",
+                          "n": "640010130090030"
+                        },
+                        "children": [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "μέλανος",
+                              "class": "adj",
+                              "n": "640010130090010",
+                              "strong": "3188",
+                              "gloss": "ink"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "καὶ",
+                              "class": "conj",
+                              "n": "640010130100010",
+                              "strong": "2532",
+                              "gloss": "and"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "καλάμου",
+                              "class": "noun",
+                              "n": "640010130110010",
+                              "strong": "2563",
+                              "gloss": "pen"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "σοι",
+                          "role": "io",
+                          "class": "pron",
+                          "n": "640010130120010",
+                          "strong": "4771",
+                          "gloss": "to you"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "γράφειν",
+                          "role": "v",
+                          "class": "verb",
+                          "n": "640010130130010",
+                          "strong": "1125",
+                          "gloss": "to write"
+                        },
+                        "children": []
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ]
+                ]
+              ],
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "ἀλλ’",
+                  "class": "conj",
+                  "n": "640010130050010",
+                  "strong": "235",
+                  "gloss": "but"
+                },
+                "children": []
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "δὲ",
+                  "class": "conj",
+                  "n": "640010140020010",
+                  "strong": "1161",
+                  "gloss": "however"
+                },
+                "children": []
+              },
+              [
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ἐλπίζω",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010140010010",
+                        "strong": "1679",
+                        "gloss": "I hope"
+                      },
+                      "children": []
+                    },
+                    [
+                      [
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "εὐθέως",
+                            "role": "adv",
+                            "class": "adv",
+                            "n": "640010140030010",
+                            "strong": "2112",
+                            "gloss": "soon"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "σε",
+                            "role": "o",
+                            "class": "pron",
+                            "n": "640010140040010",
+                            "strong": "4771",
+                            "gloss": "you"
+                          },
+                          "children": []
+                        },
+                        {
+                          "content": {
+                            "elementType": "w",
+                            "text": "ἰδεῖν",
+                            "role": "v",
+                            "class": "verb",
+                            "n": "640010140050010",
+                            "strong": "3708",
+                            "gloss": "to see"
+                          },
+                          "children": []
+                        }
+                      ],
+                      {
+                        "content": {
+                          "elementType": "pc"
+                        },
+                        "children": []
+                      }
+                    ]
+                  ],
+                  [
+                    [
+                      {
+                        "content": {
+                          "elementType": "w",
+                          "text": "στόμα",
+                          "class": "noun",
+                          "n": "640010140070010",
+                          "strong": "4750",
+                          "gloss": "mouth"
+                        },
+                        "children": []
+                      },
+                      {
+                        "content": {
+                          "elementType": "wg",
+                          "class": "pp",
+                          "n": "640010140080020"
+                        },
+                        "children": [
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "πρὸς",
+                              "class": "prep",
+                              "n": "640010140080010",
+                              "strong": "4314",
+                              "gloss": "to"
+                            },
+                            "children": []
+                          },
+                          {
+                            "content": {
+                              "elementType": "w",
+                              "text": "στόμα",
+                              "class": "noun",
+                              "n": "640010140090010",
+                              "strong": "4750",
+                              "gloss": "mouth"
+                            },
+                            "children": []
+                          }
+                        ]
+                      }
+                    ],
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "λαλήσομεν",
+                        "role": "v",
+                        "class": "verb",
+                        "n": "640010140100010",
+                        "strong": "2980",
+                        "gloss": "we will speak"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "pc"
+                      },
+                      "children": []
+                    }
+                  ]
+                ],
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "καὶ",
+                    "class": "conj",
+                    "n": "640010140060010",
+                    "strong": "2532",
+                    "gloss": "and"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "Εἰρήνη",
+                    "role": "s",
+                    "class": "noun",
+                    "n": "640010150010010",
+                    "strong": "1515",
+                    "gloss": "Peace"
+                  },
+                  "children": []
+                },
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "σοι",
+                    "role": "io",
+                    "class": "pron",
+                    "n": "640010150020010",
+                    "strong": "4771",
+                    "gloss": "to you"
+                  },
+                  "children": []
+                }
+              ],
+              {
+                "content": {
+                  "elementType": "pc"
+                },
+                "children": []
+              }
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              [
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "ἀσπάζονταί",
+                    "role": "v",
+                    "class": "verb",
+                    "n": "640010150030010",
+                    "strong": "782",
+                    "gloss": "Greet"
+                  },
+                  "children": []
+                },
+                {
+                  "content": {
+                    "elementType": "w",
+                    "text": "σε",
+                    "role": "o",
+                    "class": "pron",
+                    "n": "640010150040010",
+                    "strong": "4771",
+                    "gloss": "you"
+                  },
+                  "children": []
+                }
+              ],
+              [
+                [
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "οἱ",
+                      "class": "det",
+                      "n": "640010150050010",
+                      "strong": "3588",
+                      "gloss": "the"
+                    },
+                    "children": []
+                  },
+                  {
+                    "content": {
+                      "elementType": "w",
+                      "text": "φίλοι",
+                      "class": "adj",
+                      "n": "640010150060010",
+                      "strong": "5384",
+                      "gloss": "friends"
+                    },
+                    "children": []
+                  }
+                ],
+                {
+                  "content": {
+                    "elementType": "pc"
+                  },
+                  "children": []
+                }
+              ]
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "content": {
+        "elementType": "sentence"
+      },
+      "children": [
+        {
+          "content": {
+            "elementType": "wg",
+            "role": "cl"
+          },
+          "children": [
+            [
+              {
+                "content": {
+                  "elementType": "w",
+                  "text": "ἀσπάζου",
+                  "role": "v",
+                  "class": "verb",
+                  "n": "640010150070010",
+                  "strong": "782",
+                  "gloss": "Greet"
+                },
+                "children": []
+              },
+              [
+                {
+                  "content": {
+                    "elementType": "wg",
+                    "role": "o",
+                    "class": "np",
+                    "n": "640010150080020"
+                  },
+                  "children": [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "τοὺς",
+                        "class": "det",
+                        "n": "640010150080010",
+                        "strong": "3588",
+                        "gloss": "the"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "φίλους",
+                        "class": "adj",
+                        "n": "640010150090010",
+                        "strong": "5384",
+                        "gloss": "friends"
+                      },
+                      "children": []
+                    }
+                  ]
+                },
+                [
+                  [
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "κατ’",
+                        "class": "prep",
+                        "n": "640010150100010",
+                        "strong": "2596",
+                        "gloss": "by"
+                      },
+                      "children": []
+                    },
+                    {
+                      "content": {
+                        "elementType": "w",
+                        "text": "ὄνομα",
+                        "class": "noun",
+                        "n": "640010150110010",
+                        "strong": "3686",
+                        "gloss": ""
+                      },
+                      "children": []
+                    }
+                  ],
+                  {
+                    "content": {
+                      "elementType": "pc"
+                    },
+                    "children": []
+                  }
+                ]
+              ]
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
