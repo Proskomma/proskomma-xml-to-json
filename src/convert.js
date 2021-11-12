@@ -1,140 +1,95 @@
-import xml from "fast-xml-parser";
+import fileWriter from "./fileWriter.js";
+import parseXml from "@rgrove/parse-xml";
 
 let attrsToKeep = [];
 let elementsToIgnore = [];
 
-const determineNextObjectKeys = (anObject) => {
-  try {
-    const keys = Object.keys(anObject);
+const attrMapper = (attrs) => {
+  const keys = Object.keys(attrs).filter((key) => attrsToKeep.includes(key));
 
-    if (keys.length === 1 && keys[0] === '0') {
-      return [];
-    }
+  const retainedAttrs = {};
 
-    const filteredKeys =
-      keys?.filter(
-        (key) => key !== "attrs" && !elementsToIgnore.includes(key)
-      );
-
-    return filteredKeys ?? [];
-  } catch (e) {
-    console.log(
-      "Enountered a problem determing next keys for object.",
-      anObject
-    );
-    throw e;
+  for (const key of keys) {
+    retainedAttrs[key] = attrs[key];
   }
+  return retainedAttrs;
 };
 
-const determineNextObjectKey = (anObject) => {
-  try {
-    const keys = Object.keys(anObject);
-    return keys?.find(
-      (key) => key !== "attrs" && !elementsToIgnore.includes(key)
-    );
-  } catch (e) {
-    console.log(
-      "Encountered a problem determining next key for object.",
-      anObject
-    );
-    throw e;
+const determineText = (rawNode) => {
+  const text = rawNode.children.find(
+    (child) => child.type === "text" && Boolean(child.text.trim())
+  );
+  if (text) {
+    return { text: text.text.trim() };
   }
+
+  return {};
 };
-
-const gatherDesiredAttrs = (attrs) => {
-  const gatheredAttrs = {};
-
-  Object.entries(attrs ?? {})?.forEach((entry) => {
-    const cleanedKey = entry[0].slice(2);
-
-    if (attrsToKeep.includes(cleanedKey)) {
-      gatheredAttrs[cleanedKey] = entry[1];
-    }
+const grabContentNodes = (rawNode) => {
+  const allKeys = Object.keys(rawNode);
+  const filteredKeys = allKeys.filter((key) => {
+    return !["type", "name", "attributes", "isRootNode", "children"].includes(
+      key
+    );
   });
 
-  return gatheredAttrs;
-};
-
-const processor = (anObject, objectKey, isFirst) => {
-  let _object = anObject;
-  let _first = isFirst;
-
-  let id = null;
-  if (_object && _object.attrs && _object.attrs["@_n"]) {
-    id = _object.attrs["@_n"];
-  }
-
-  //console.log(id);
-
-  // clause: 430010010010050
-  // word:   430010010030010
-  //if (id === "430010010010050") {
-    //console.log("FOUND");
-    //console.log(_object);
-    //console.log("next?", determineNextObjectKey(_object));
-    //console.log("next plural?", determineNextObjectKeys(_object));
-  //}
-
-  if (Array.isArray(_object)) {
-    return _object.map((item) => processor(item, objectKey));
-  }
-
-  const nextObjectKeys = determineNextObjectKeys(_object);
-
-  //console.log(nextObjectKeys);
-
-  if (nextObjectKeys.length > 1) {
-    return nextObjectKeys.map((key) => processor(_object[key], key));
-  }
-
-  let nextObjectKey = nextObjectKeys[0];
-
-  if (!objectKey) {
-    objectKey = nextObjectKey;
-    if (_first) {
-      _first = false;
-      // skip ahead by one
-      _object = anObject[nextObjectKey];
-      nextObjectKey = determineNextObjectKey(_object);
-    }
-  }
-
-  const attrs = gatherDesiredAttrs(_object.attrs);
-
-  if (!nextObjectKey || nextObjectKey === "#text") {
-    return {
-      content: { elementType: objectKey, text: _object["#text"], ...attrs },
-      children: [],
-    };
-  }
-
-  const nextObject = _object[nextObjectKey];
-  const nextObjectProperlyWrapped = Array.isArray(nextObject)
-    ? nextObject
-    : [nextObject];
-
-  return {
-    content: {
-      elementType: objectKey,
-      ...attrs,
-    },
-    children: processor(nextObjectProperlyWrapped, nextObjectKey),
+  const processedNode = {
+    elementType: rawNode["name"],
+    ...attrMapper(rawNode["attributes"]),
+    ...determineText(rawNode),
   };
+
+  for (const filteredKey of filteredKeys) {
+    processedNode[filteredKey] = rawNode[filteredKey];
+  }
+
+  return processedNode;
 };
 
-const convert = (xmlData, requestedAttrs, ignoredElements) => {
+const isValidElement = (xmlElement) => {
+  if (xmlElement.type === "text") {
+    return false;
+  }
+  if (xmlElement.type === "element" && xmlElement.name === "p") {
+    return false;
+  }
+  return true;
+};
+
+const determineChildren = (parsedXml) => {
+  if (parsedXml.children) {
+    const filteredChildren = parsedXml.children.filter((child) => {
+      return isValidElement(child);
+    });
+    return filteredChildren.map((child) => {
+      return mapper(child);
+    });
+  }
+  return [];
+};
+
+const mapper = (parsedXml) => {
+  const content = grabContentNodes(parsedXml);
+  const children = determineChildren(parsedXml);
+  return { content, children };
+};
+
+const convert = async (
+  xmlData,
+  requestedAttrs,
+  ignoredElements,
+  rootNode,
+) => {
   attrsToKeep = requestedAttrs;
   elementsToIgnore = ignoredElements;
 
-  const parsedXml = xml.parse(xmlData, {
-    ignoreAttributes: false,
-    arrayMode: false,
-    attrNodeName: "attrs",
-  });
+  const parserResult = parseXml(xmlData);
 
-  //console.log(parsedXml);
+  const parsedXml = parserResult.children
+    .find((item) => item.name === rootNode)
+    .toJSON();
 
-  return processor(parsedXml, undefined, true);
+  return mapper(parsedXml);
 };
 
 export default convert;

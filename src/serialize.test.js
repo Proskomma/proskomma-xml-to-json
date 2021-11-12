@@ -11,7 +11,8 @@ describe("data serialization", () => {
       files[0][0],
       files[0][1],
       ["role", "class", "n", "gloss", "strong"],
-      ["p"]
+      ["p"],
+      "book"
     );
 
     expect(serialized).toBeTruthy();
@@ -27,7 +28,8 @@ describe("data serialization", () => {
     const serialized = await serializeMany(
       files,
       ["role", "class", "n", "gloss", "strong"],
-      ["p"]
+      ["p"],
+      "book"
     );
 
     expect(serialized.length).toBe(27);

@@ -1,8 +1,19 @@
 import { Proskomma } from "proskomma";
 import convert from "./convert.js";
 
-export const serialize = async (name, file, attrsToKeep, elementsToIgnore) => {
-  const converted = convert(file, attrsToKeep, elementsToIgnore);
+export const serialize = async (
+  name,
+  file,
+  attrsToKeep,
+  elementsToIgnore,
+  rootNode
+) => {
+  const converted = await convert(
+    file,
+    attrsToKeep,
+    elementsToIgnore,
+    rootNode
+  );
 
   const pk = new Proskomma();
   const trimmedName = name.replace(".xml", "");
@@ -19,14 +30,20 @@ export const serialize = async (name, file, attrsToKeep, elementsToIgnore) => {
   return pk.serializeSuccinct(docSetId);
 };
 
-export const serializeMany = async (files, attrsToKeep, elementsToIgnore) => {
+export const serializeMany = async (
+  files,
+  attrsToKeep,
+  elementsToIgnore,
+  rootNode
+) => {
   const serialized = await Promise.all(
     files.map(async ([name, file]) => {
       const serializedSingle = await serialize(
         name,
         file,
         attrsToKeep,
-        elementsToIgnore
+        elementsToIgnore,
+        rootNode
       );
       return [name, serializedSingle];
     })

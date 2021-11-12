@@ -10,7 +10,7 @@
   "author": "Mike Brinker",
   "license": "MIT",
   "dependencies": {
-    "fast-xml-parser": "^3.20.0",
+    "@rgrove/parse-xml": "^3.0.0",
     "proskomma": "^0.4.73"
   },
   "devDependencies": {
